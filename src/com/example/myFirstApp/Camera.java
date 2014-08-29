@@ -3,6 +3,7 @@ package com.example.myFirstApp;
 import java.io.IOException;
 
 import android.app.Activity;
+import android.app.WallpaperManager;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -40,14 +41,15 @@ public class Camera extends Activity implements OnClickListener{
 		switch (v.getId()){
 		case R.id.bSetWall:
 			try {
-				getApplicationContext().setWallpaper(bmp);
+				getApplicationContext().setWallpaper(bmp);;
+				 //WallpaperManager.;
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			break;
 		case R.id.ibTakePic:
-			i = new Intent(android.provider.MediaStore.ACTION_VIDEO_CAPTURE);
+			i = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
 			startActivityForResult(i,cameraData);
 			break;
 		}

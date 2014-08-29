@@ -30,34 +30,38 @@ public final class R {
         public static final int new_img=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0015;
+        public static final int action_settings=0x7f0a0018;
         public static final int analogClock1=0x7f0a0010;
         public static final int bAdd=0x7f0a0001;
-        public static final int bResult=0x7f0a0012;
+        public static final int bResult=0x7f0a0015;
         public static final int bSentEmail=0x7f0a000f;
+        public static final int bSetWall=0x7f0a0013;
         public static final int bSub=0x7f0a0002;
         public static final int beginning=0x7f0a0005;
         public static final int emailAdd=0x7f0a0003;
         public static final int etAction=0x7f0a000c;
-        public static final int etCommands=0x7f0a0011;
+        public static final int etCommands=0x7f0a0014;
         public static final int etEmails=0x7f0a0004;
         public static final int etIntro=0x7f0a0006;
         public static final int etName=0x7f0a0008;
         public static final int etOutro=0x7f0a000e;
         public static final int etThings=0x7f0a000a;
         public static final int hatefulAct=0x7f0a000b;
+        public static final int ibTakePic=0x7f0a0012;
+        public static final int ivReturnPic=0x7f0a0011;
         public static final int name=0x7f0a0007;
         public static final int out=0x7f0a000d;
         public static final int stupidAction=0x7f0a0009;
-        public static final int toggleButton1=0x7f0a0013;
+        public static final int toggleButton1=0x7f0a0016;
         public static final int tv1=0x7f0a0000;
-        public static final int tvResults=0x7f0a0014;
+        public static final int tvResults=0x7f0a0017;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int email=0x7f030001;
-        public static final int splash=0x7f030002;
-        public static final int text=0x7f030003;
+        public static final int photo=0x7f030002;
+        public static final int splash=0x7f030003;
+        public static final int text=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f090000;

@@ -3,6 +3,8 @@ package com.example.myFirstApp;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -11,8 +13,7 @@ public class Menu extends ListActivity {
 
 	
 	String classes[] = { "MainActivity", "TextPlay", "Email", "Camera",
-			"Data", "example5", "example6","example7","example8","example9","example10",
-			"example11","example12","example13",};
+			"Data", "example5", "example6","example7"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,33 @@ public class Menu extends ListActivity {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
+	}
+
+
+	@Override
+	public boolean onCreateOptionsMenu(android.view.Menu menu) {
+		// TODO Auto-generated method stub
+		super.onCreateOptionsMenu(menu);
+		MenuInflater blowUp = getMenuInflater();
+		blowUp.inflate(R.menu.cool_menu, menu);
+		return true;
+	}
+
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// TODO Auto-generated method stub
+		switch (item.getItemId()){
+		case R.id.aboutus:
+			Intent i = new Intent("android.example.myFirstApp.ABOUT");
+			startActivity(i);
+			break;
+		case R.id.preferences:
+			
+			break;
+		
+		}
+		return false;		
 	}
 
 }

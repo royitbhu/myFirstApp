@@ -29,9 +29,13 @@ public final class R {
         public static final int activity_vertical_margin=0x7f070001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int ic_launcher1=0x7f020001;
-        public static final int new_img=0x7f020002;
+        public static final int custom=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int ic_launcher1=0x7f020002;
+        public static final int new_img=0x7f020003;
+        public static final int plus=0x7f020004;
+        public static final int plus1=0x7f020005;
+        public static final int plus2=0x7f020006;
     }
     public static final class id {
         public static final int aboutus=0x7f0c0024;
@@ -80,10 +84,11 @@ public final class R {
         public static final int activity_main=0x7f030001;
         public static final int email=0x7f030002;
         public static final int get=0x7f030003;
-        public static final int photo=0x7f030004;
-        public static final int send=0x7f030005;
-        public static final int splash=0x7f030006;
-        public static final int text=0x7f030007;
+        public static final int hola=0x7f030004;
+        public static final int photo=0x7f030005;
+        public static final int send=0x7f030006;
+        public static final int splash=0x7f030007;
+        public static final int text=0x7f030008;
     }
     public static final class menu {
         public static final int cool_menu=0x7f0b0000;

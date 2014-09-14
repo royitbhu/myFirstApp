@@ -64,6 +64,10 @@
             android:label="@string/app_name" >
         </activity>
         <activity
+            android:name="com.example.myFirstApp.GFX"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
             android:name="com.example.myFirstApp.AboutUs"
             android:theme="@android:style/Theme.Dialog"
             android:label="@string/app_name" >

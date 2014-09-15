@@ -56,6 +56,10 @@
             android:label="@string/app_name" >
         </activity>
         <activity
+            android:name="com.example.myFirstApp.SoundStuff"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
             android:name="com.example.myFirstApp.Camera"
             android:label="Camera Application"
             android:screenOrientation="landscape" >

@@ -13,6 +13,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.SlidingDrawer;
 import android.widget.SlidingDrawer.OnDrawerOpenListener;
 
+@SuppressWarnings("deprecation")
 public class Slider extends Activity implements OnClickListener, OnCheckedChangeListener, OnDrawerOpenListener{
 
 	Button handle1,handle2,handle3,handle4;

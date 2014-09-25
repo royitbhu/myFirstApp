@@ -51,10 +51,16 @@
             android:name="com.example.myFirstApp.GFXSurface"
             android:label="@string/app_name" >
         </activity>
+        
         <activity
             android:name="com.example.myFirstApp.Slider"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.example.myFirstApp.Tabs"
+            android:label="@string/app_name" >
+        </activity>
+        
         <activity
             android:name="com.example.myFirstApp.Email"
             android:label="@string/app_name" >

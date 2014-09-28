@@ -45,6 +45,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+         <activity
+            android:name="com.example.myFirstApp.SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.example.myFirstApp.SQLView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.myFirstApp.TextPlay"
             android:label="@string/app_name" >
@@ -71,6 +80,11 @@
             android:name="com.example.myFirstApp.Email"
             android:label="@string/app_name" >
         </activity>
+         <activity
+            android:name="com.example.myFirstApp.SQLiteExample"
+            android:label="@string/app_name" >
+        </activity>
+
         <activity
             android:name="com.example.myFirstApp.SoundStuff"
             android:label="@string/app_name" >
